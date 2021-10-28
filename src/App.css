@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.participants {
+  flex: 36.1875;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10.246533128%;
+}
+
+.btn {
+  padding: 12px 16px;
+  background-color: DodgerBlue;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 16px;
+}
+
+.video {
+  width: 754px;
+  height: 425px;
+}
+
+.header {
+  flex: 1;
+}
+
+.controls {
+  flex: 5;
+}
